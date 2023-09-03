@@ -11,12 +11,13 @@ int fibonacci_naive(int n) {
 
 int fibonacci_fast(int n) {
     // write your code here
-    std::vector<int> fib(n+1);
-    fib[0] = 0;
-    fib[1] = 1;
+    std::vector<int> fib;
+    fib.push_back(0);
+    fib.push_back(1);
 
     for (int i = 2; i <= n; ++i) {
-        fib[i] = fib[i-1] + fib[i-2];
+        long long current = fib[i-1] + fib[i-2];
+        fib.push_back(current);
     }
 
     return fib[n];
