@@ -14,11 +14,12 @@ int gcd_naive(int a, int b) {
 
 
 int gcd_fast(int a, int b) {
-  if (b == 0) {
+  if (b == 0) 
     return a;
-  }
+
   return gcd_fast(b, a % b);
 }
+
 
 void test_solution(int max_test = 1000) {
   int i = 0;
