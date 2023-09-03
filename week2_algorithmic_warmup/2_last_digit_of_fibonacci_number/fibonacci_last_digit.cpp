@@ -20,9 +20,7 @@ int get_fibonacci_last_digit_fast(int n) {
     if (n <= 1)
         return n;
 
-    int previous = 0;
-    int current  = 1;
-    int tmp_previous;
+    int previous = 0, current = 1, tmp_previous;
 
     for (int i = 0; i < n - 1; ++i) {
         tmp_previous = previous;
@@ -48,10 +46,9 @@ void test_function(){
 }
 
 int main() {
+    test_function();
     int n;
     std::cin >> n;
     int c = get_fibonacci_last_digit_fast(n);
     std::cout << c << '\n';
-
-    // test_function();
     }
