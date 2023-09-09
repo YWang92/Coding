@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(pwd, Some(75b7f177-5800-4177-bd49-16cc4b3667e7), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: pwd (similar: new, append)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: pwd[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: pwd (similar: ps, doc, update)[0m
+[0m[[0m[31merror[0m] [0m[0mpwd[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

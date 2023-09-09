@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(submit: ywang.qt@gmail.com oKKuYC5JGaWyQOuH, Some(ddb8a783-3605-416e-a63f-0bf8dac8773c), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mExpected key[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '*'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'Zero'[0m
+[0m[[0m[31merror[0m] [0m[0msubmit: ywang.qt@gmail.com oKKuYC5JGaWyQOuH[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
