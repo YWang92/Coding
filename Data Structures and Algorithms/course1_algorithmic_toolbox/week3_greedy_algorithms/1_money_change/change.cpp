@@ -18,6 +18,8 @@ int get_change(int m) {
 }
 
 int main() {
+  std::cout << "C++ version: " << __cplusplus << std::endl;
+  return 0;
   int m;
   std::cin >> m;
   std::cout << get_change(m) << '\n';
