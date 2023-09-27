@@ -8,14 +8,14 @@ using std::vector;
 using std::string;
 
 /**
+ * Function to find the largest number that can be formed by    concatenating the strings in the input vector.
+ * 
  * @brief Constructs the largest possible number by concatenating the given list of non-negative integers.
  * 
  * @param a Vector containing string representations of the non-negative integers.
  * @return The largest number (as a string) that can be constructed by the given concatenation.
  */
 
-
-// Function to find the largest number that can be formed by concatenating the strings in the input vector.
 string largest_number(vector<string> a) {
   // Sorts the strings based on the condition a + b > b + a, so that the concatenated result is the largest possible number.
   std::sort(a.begin(), a.end(), [](const string& a, const string& b) {
